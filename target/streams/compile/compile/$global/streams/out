@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/ko-kamenashi/GoogleDrive/Scala/scala_scalable_programming/src/main/scala/MyApp.scala:17:11: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m      if (n % 2 == 0) [0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/ko-kamenashi/GoogleDrive/Scala/scala_scalable_programming/src/main/scala/MyApp.scala:18:9: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m        n / 2[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
