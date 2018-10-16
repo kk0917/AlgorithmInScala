@@ -6,9 +6,9 @@ object BubbleSort extends App {
   while (listCount < list.length) {
     for (j <- (list.length - listCount) to 0) {
       if (list(j) < list(j - 1)) {
-        val temp = list(j - 1)
+        val swap = list(j - 1)
         list(j - 1) = list(j)
-        list(j) = temp
+        list(j) = swap
       }
     }
     listCount += 1

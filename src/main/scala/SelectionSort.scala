@@ -1,6 +1,6 @@
 import scala.collection.mutable.ListBuffer
 
-object MyApp extends App {
+object SelectionSort extends App {
   var list         = ListBuffer(3, 1, 5, 4, 2)
   var replaceCount = 0
   for (i <- 0 until list.length) {
