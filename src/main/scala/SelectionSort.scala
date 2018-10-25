@@ -3,7 +3,7 @@ import scala.collection.mutable.ListBuffer
 object SelectionSort extends App {
   var list         = ListBuffer(3, 1, 5, 4, 2)
   var replaceCount = 0
-  for (i <- 0 until list.length) {
+  for (i <- list.indices) {
     var minj = i
     for (j <- i until list.length) {
       if (list(j) < list(minj)) {
@@ -11,9 +11,9 @@ object SelectionSort extends App {
       }
     }
 
-    val swap = list(minj)
+    val tmp = list(minj)
     list(minj) = list(i)
-    list(i) = swap
+    list(i) = tmp
     replaceCount += 1
 
     println(list)
